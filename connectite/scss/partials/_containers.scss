@@ -1,0 +1,17 @@
+// header small logos
+
+.small-logo-wrap {
+	position: absolute;
+	top: 37px;
+	right: 185px;
+
+	.left-logo {
+		float: left;
+		padding: 2px;
+	}
+
+	.right-logo {
+		float: right;
+		padding: 2px;
+	}
+}

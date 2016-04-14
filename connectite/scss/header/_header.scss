@@ -1,0 +1,124 @@
+/* Mobile Menu */
+
+.navbar-toggle {
+  overflow: hidden;
+}
+.navbar-toggle .icon-bar {
+  -webkit-transition: opacity, -webkit-transform;
+  transition: opacity, -webkit-transform;
+  transition: opacity, transform;
+  transition: opacity, transform, -webkit-transform;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+  -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0, 0.7);
+          transition-timing-function: cubic-bezier(0.7, 0, 0, 0.7);
+}
+.navbar-toggle:not(.collapsed) .icon-bar:nth-child(1) {
+  -webkit-transform: translateY(9px) rotate(45deg);
+          transform: translateY(9px) rotate(45deg);
+}
+.navbar-toggle:not(.collapsed) .icon-bar:nth-child(2) {
+  opacity: 0;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+.navbar-toggle:not(.collapsed) .icon-bar:nth-child(3) {
+  -webkit-transform: translateY(-9px) rotate(-45deg);
+          transform: translateY(-9px) rotate(-45deg);
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+	width: 30px;
+	height: 3px;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+	margin-top: 7px;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+}
+
+
+/* navigation */
+
+.connectite-nav {
+	height: 27px;
+}
+
+.navbar-toggle {
+	float: left;
+}
+
+.navbar {
+	min-height: 27px;
+	margin-bottom: 0px;
+	border-radius: 0px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 2px solid transparent;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: #000000;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 27px;
+	width: 175px;
+
+	@media (max-width: 1200px) {
+		width: 100%;
+	}
+}
+
+.navbar-nav > li {
+	border-right: 1px solid #ffffff;
+}
+
+@media (min-width: 768px) {
+	.navbar .navbar-nav {
+		display: inline-block;
+		float: none;
+		background-color: #000000;
+		color: #ffffff;
+		height: 27px;
+	}	
+}
+
+
+/* Background Images */
+
+.features {
+	background-image: url(../images/features-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #000000;
+	height: 250px;
+}
+
+.shaded-pipe-bg {
+	background-image: url(../images/grey-pipe-bg.jpg);
+	background-position: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #000000;
+	height: 250px;
+}
