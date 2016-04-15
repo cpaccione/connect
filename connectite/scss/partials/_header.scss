@@ -46,6 +46,12 @@
 	background-color: transparent;
 }
 
+.m-label p {
+	color: #ffffff;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
 
 /* navigation */
 
@@ -88,6 +94,11 @@
 	}
 }
 
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+	color: #be1e2d;
+}
+
 .navbar-nav > li {
 	border-right: 1px solid #ffffff;
 }
@@ -100,6 +111,12 @@
 		color: #ffffff;
 		height: 27px;
 	}	
+}
+
+// Logo Containers 
+
+.logo {
+	padding-bottom: 50px;
 }
 
 

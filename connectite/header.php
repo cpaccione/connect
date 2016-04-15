@@ -15,26 +15,48 @@
 
   <body>
 
-      <section class="logo">
+    <section class="logo">
       <div class="container">
         <div class="row">
-        <div class="col-md-12">
-          <a href="<?php bloginfo('url'); ?>"><img class="center-block" src="<?php bloginfo('template_directory');?>/images/logo_connectite.png" alt=""></a>
-        </div>
 
-        </div>
-        </div>
-
-
-        <div class="small-logo-wrap">
-          <div class="left-logo">
-            <img src="<?php bloginfo('template_directory');?>/images/logo_usa.png" alt="">
-            </div>
-          <div class="right-logo">
-            <img src="<?php bloginfo('template_directory');?>/images/logo_nse.png" alt="">
+          <div class="col-md-4 col-md-offset-4 hidden-sm hidden-xs">
+            <a href="<?php bloginfo('url'); ?>"><img class="center-block" src="<?php bloginfo('template_directory');?>/images/logo_connectite.png" alt="Connectite"></a>
           </div>
+
+          <div class="col-md-4 hidden-sm hidden-xs">
+            <div class="small-logo-wrap">
+                <div class="left-logo">
+                  <img src="<?php bloginfo('template_directory');?>/images/logo_usa.png" alt="">
+                </div>
+                <div class="right-logo">
+                  <img src="<?php bloginfo('template_directory');?>/images/logo_nse.png" alt="">
+                </div>
+            </div>
+          </div>
+
+          <div class="col-sm-2 hidden-xs hidden-md hidden-lg">
+            <div class="small-logo-wrap">
+              <div class="left-logo">
+                  <img src="<?php bloginfo('template_directory');?>/images/logo_nse.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-8 col-xs-12 hidden-md hidden-lg">
+            <a href="<?php bloginfo('url'); ?>"><img class="center-block" src="<?php bloginfo('template_directory');?>/images/logo_connectite.png" alt="Connectite"></a>
+          </div>
+
+          <div class="col-sm-2 hidden-xs hidden-md hidden-lg">
+            <div class="small-logo-wrap">
+              <div class="right-logo">
+                <img src="<?php bloginfo('template_directory');?>/images/logo_usa.png" alt="">
+              </div>
+            </div>
+          </div>
+
         </div>
-    </section>
+      </div>
+    </section> <!-- logo section close --> 
 
     <nav class="navbar navbar-default">
       <div class="container connectite-nav">
@@ -46,6 +68,9 @@
             <span class="icon-bar"></span>
             <span class="sr-only">Toggle navigation</span>
           </button>
+          <div class="hidden-lg hidden-md m-label">
+            <p>Menu</p>
+          </div>
         </div>
 
           <div id="navbar" class="navbar-collapse collapse">

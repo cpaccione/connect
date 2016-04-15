@@ -40,6 +40,11 @@
 .navbar-default .navbar-toggle:focus {
   background-color: transparent; }
 
+.m-label p {
+  color: #ffffff;
+  margin: 0;
+  padding: 10px 0 0 0; }
+
 /* navigation */
 .connectite-nav {
   height: 27px; }
@@ -73,6 +78,10 @@
     .navbar-default .navbar-nav > li > a {
       width: 100%; } }
 
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #be1e2d; }
+
 .navbar-nav > li {
   border-right: 1px solid #ffffff; }
 
@@ -83,6 +92,9 @@
     background-color: #000000;
     color: #ffffff;
     height: 27px; } }
+.logo {
+  padding-bottom: 50px; }
+
 /* Background Images */
 .features {
   background-image: url(../images/features-bg.jpg);
@@ -101,15 +113,16 @@
   height: 250px; }
 
 .small-logo-wrap {
-  position: absolute;
-  top: 37px;
-  right: 185px; }
+  float: right; }
   .small-logo-wrap .left-logo {
     float: left;
     padding: 2px; }
   .small-logo-wrap .right-logo {
     float: right;
     padding: 2px; }
+
+.applications {
+  background-color: #c42833; }
 
 html {
   font-size: 100%; }
@@ -120,10 +133,11 @@ body {
 
 /* headlines */
 h1 {
-  font-size: 6.25em;
+  font-size: 5.25em;
   color: #ffffff;
   text-align: center;
-  font-weight: 700; }
+  font-weight: 700;
+  padding: 50px 0 50px 0; }
 
 /* slider and sub section headlines */
 h2 {

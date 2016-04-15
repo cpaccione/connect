@@ -10,6 +10,13 @@ Template Name: Connectite Home Page
 
 <?php get_header(); ?>
 
+<!-- Revolution Slider  -->
+<section class="rev-wrap">
+	
+	<?php putRevSlider("connectite_slider") ?>
+
+</section>
+
   <section class="tag-line">
       <div class="container">
         <div class="row">
@@ -20,10 +27,10 @@ Template Name: Connectite Home Page
       </div>
     </section>
 
-    <section class="features">
+    <section class="features" id="features">
       <div class="container">
         <div class="row">
-          <h1>Features</h1>
+          <h1>FEATURES</h1>
         </div>
       </div>
     </section>
@@ -116,10 +123,10 @@ Template Name: Connectite Home Page
     </section>
 
     <section class="black-section"></section>
-    <section class="shaded-pipe-bg">
+    <section class="shaded-pipe-bg" id="design-technology">
       <div class="container">
         <div class="row">
-          <h1>Design Technology</h1>
+          <h1>DESIGN TECHNOLOGY</h1>
         </div>
       </div>
     </section>
@@ -163,40 +170,51 @@ Template Name: Connectite Home Page
     </section>
 
     <section class="black-section"></section>
-    <section class="shaded-pipe-bg">
+    <section class="shaded-pipe-bg" id="applications">
       <div class="container">
         <div class="row">
-          <h1>Applications</h1>
+          <h1>APPLICATIONS</h1>
         </div>
+      </div>
+    </section>
+
+    <section class="applications">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <h3>For Drain, Waste and Vent Applications.*</h3>
+              </div>
+          </div>
       </div>
     </section>
 
     <section class="black-section"></section>
 
-    <section class="shaded-pipe-bg">
+    <section class="shaded-pipe-bg" id="quick-installation">
       <div class="container">
         <div class="row">
-          <h1>Quick Installation</h1>
+          <h1>QUICK INSTALLATION</h1>
         </div>
       </div>
     </section>
-
-    <section class="design-tech">
+    <section class="installation">
       <div class="container">
-        
         <div class="row">
-            <div class="sub-heading">
-              <h3>With the Ability to Adjust Connection, If Needed.</h3>
+            <div class="col-md-12">
+                <h3>With the Ability to Adjust Connection, If Needed.</h3>
+            </div>
+            <div class="col-md-12">
+                <img src="<?php bloginfo('template_directory') ?>/images/video_place_holder.png" alt="Connectite Video">
             </div>
         </div>
       </div>
     </section>
-
+    
     <section class="black-section"></section>
-    <section class="shaded-pipe-bg">
+    <section class="shaded-pipe-bg" id="available-products">
       <div class="container">
         <div class="row">
-          <h1>Available Products</h1>
+          <h1>AVAILABLE PRODUCTS</h1>
         </div>
       </div>
     </section>

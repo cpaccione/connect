@@ -1,9 +1,7 @@
 // header small logos
 
 .small-logo-wrap {
-	position: absolute;
-	top: 37px;
-	right: 185px;
+	float: right;
 
 	.left-logo {
 		float: left;
@@ -14,4 +12,10 @@
 		float: right;
 		padding: 2px;
 	}
+}
+
+// Home Page - Applications
+
+.applications {
+	background-color: #c42833;
 }
