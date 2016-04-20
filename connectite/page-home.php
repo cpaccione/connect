@@ -30,7 +30,7 @@ Template Name: Connectite Home Page
     <section class="features" id="features">
       <div class="container">
         <div class="row">
-          <h1>FEATURES</h1>
+          <h1>Features</h1>
         </div>
       </div>
     </section>
@@ -126,7 +126,7 @@ Template Name: Connectite Home Page
     <section class="shaded-pipe-bg" id="design-technology">
       <div class="container">
         <div class="row">
-          <h1>DESIGN TECHNOLOGY</h1>
+          <h1>Design Technology</h1>
         </div>
       </div>
     </section>
@@ -173,7 +173,7 @@ Template Name: Connectite Home Page
     <section class="shaded-pipe-bg" id="applications">
       <div class="container">
         <div class="row">
-          <h1>APPLICATIONS</h1>
+          <h1>Applications</h1>
         </div>
       </div>
     </section>
