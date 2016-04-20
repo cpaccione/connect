@@ -46,7 +46,7 @@ Template Name: Connectite Home Page
         </div>
         <div class="row">
           <div class="col-sm-6">
-            <img src="<?php bloginfo('template_directory');?>/images/product_3.jpg" alt="">
+            <img src="<?php bloginfo('template_directory');?>/images/features_image.png" alt="">
           </div>
           <div class="col-sm-6">
             <table>
@@ -141,7 +141,7 @@ Template Name: Connectite Home Page
 
         <div class="row">
           <div class="col-sm-6">
-            <img src="<?php bloginfo('template_directory');?>/images/patented_lock_ring_seal.png" alt="Patented Lock Ring &amp; Seal.">
+            <img src="<?php bloginfo('template_directory');?>/images/design_technology_image.png" alt="Patented Lock Ring &amp; Seal.">
           </div>
           <div class="col-sm-6">
             <div class="flex-wrap">
@@ -192,20 +192,29 @@ Template Name: Connectite Home Page
 
     <section class="shaded-pipe-bg" id="quick-installation">
       <div class="container">
+
         <div class="row">
-          <h1>QUICK INSTALLATION</h1>
+          <h1>Quick Installation</h1>
         </div>
+
       </div>
     </section>
+
     <section class="installation">
       <div class="container">
+
         <div class="row">
+
             <div class="col-md-12">
                 <h3>With the Ability to Adjust Connection, If Needed.</h3>
             </div>
+
             <div class="col-md-12">
-                <img src="<?php bloginfo('template_directory') ?>/images/video_place_holder.png" alt="Connectite Video">
+              <div class="video-wrapper">
+                  <img src="<?php bloginfo('template_directory') ?>/images/video_place_holder.png" alt="Connectite Video">
+              </div>
             </div>
+
         </div>
       </div>
     </section>
@@ -214,7 +223,7 @@ Template Name: Connectite Home Page
     <section class="shaded-pipe-bg" id="available-products">
       <div class="container">
         <div class="row">
-          <h1>AVAILABLE PRODUCTS</h1>
+          <h1>Available Products</h1>
         </div>
       </div>
     </section>
@@ -222,7 +231,7 @@ Template Name: Connectite Home Page
     <section class="available-products">
       <div class="container">
 
-        <div class="row">
+        <div class="row ap-row">
           <div class="col-sm-6">
 
             <div class="img-overlay">
@@ -252,7 +261,7 @@ Template Name: Connectite Home Page
           </div>
         </div>
 
-        <div class="row">
+        <div class="row ap-row">
         <div class="col-sm-6">
             <div class="img-overlay">
               <img src="<?php bloginfo('template_directory');?>/images/product_3.png">
