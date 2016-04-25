@@ -239,7 +239,10 @@ Template Name: Connectite Home Page
 
               <div class="portfolio-overlay">
                 <div class="overlay-copy">
-                  <p>90 Elbow</p>
+                  <p><b>Coupling</b></p>
+                  <p>1.5 inch</p>
+                  <p>2 inch</p>
+                  <p>3 inch</p>
                 </div>
               </div>
 
@@ -253,7 +256,10 @@ Template Name: Connectite Home Page
 
               <div class="portfolio-overlay">
                 <div class="overlay-copy">
-                  <p>90 Elbow</p>
+                  <p><b>90&deg; Elbow</b></p>
+                  <p>1.5 inch</p>
+                  <p>2 inch</p>
+                  <p>3 inch</p>
                 </div>
               </div>
               
@@ -268,7 +274,10 @@ Template Name: Connectite Home Page
 
               <div class="portfolio-overlay">
                 <div class="overlay-copy">
-                  <p>90 Elbow</p>
+                  <p><b>45&deg; Elbow</b></p>
+                  <p>1.5 inch</p>
+                  <p>2 inch</p>
+                  <p>3 inch</p>
                 </div>
               </div>
               
@@ -280,7 +289,10 @@ Template Name: Connectite Home Page
 
               <div class="portfolio-overlay">
                 <div class="overlay-copy">
-                  <p>90 Elbow</p>
+                  <p><b>Sanitary Tee</b></p>
+                  <p>1.5 inch</p>
+                  <p>2 inch</p>
+                  <p>3 inch</p>
                 </div>
               </div>
               
