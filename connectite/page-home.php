@@ -215,6 +215,12 @@ Template Name: Connectite Home Page
               </div>
             </div>
 
+            <div class="col-md-12">
+              <p>Watch Step-by-Step Installation Instructions</p>
+              <p>OR</p>
+              <p><a href="#">DOWNLOAD PDF OF INSTRUCTIONS</a></p>
+            </div>
+
         </div>
       </div>
     </section>
