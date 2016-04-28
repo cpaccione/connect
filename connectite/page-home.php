@@ -178,33 +178,57 @@ Template Name: Connectite Home Page
       </div>
     </section>
 
+    <!-- APPLICATIONS -->
     <section class="applications">
       <div class="container">
 
           <div class="row">
               <div class="col-md-12">
+                <div class="section-title">
                   <h3>For Drain, Waste and Vent Applications.*</h3>
+                </div>
               </div>
           </div>
 
-          <div class="row">
+          <div class="row app-first-row">
               <div class="col-sm-4">
-                <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/abs.jpg" alt="Connectite ABS">
+                <div class="circle-wrap">
+                  <div class="circle-base">
+                    <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/abs.jpg" alt="Connectite ABS">
+                    <div class="circle-overlay">
+                      +
+                    </div>
+                  </div>
+
+                  <p>ABS DWV</p>
+                </div>
               </div>
               <div class="col-sm-4">
-                <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/pvc.jpg" alt="Connectite PVC">
+                <div class="circle-wrap">
+                  <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/pvc.jpg" alt="Connectite PVC">
+                  <p>PVC DWV</p>
+                </div>
               </div>
               <div class="col-sm-4">
-                <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/remodel.jpg" alt="Connectite Remodel">
+                <div class="circle-wrap">
+                  <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/remodel.jpg" alt="Connectite Remodel">
+                  <p>Remodel</p>
+                </div>
               </div>
           </div>
 
            <div class="row">
               <div class="col-sm-offset-2 col-sm-4">
-                <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/repair.jpg" alt="Connectite Repair">
+                <div class="circle-wrap">
+                  <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/repair.jpg" alt="Connectite Repair">
+                  <p>Repair</p>
+                </div>
               </div>
               <div class="col-sm-4">
-                <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/venting.jpg" alt="Connectite Venting">
+                <div class="circle-wrap">
+                  <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/venting.jpg" alt="Connectite Venting">
+                  <p>Venting</p>
+                </div>
               </div>
           </div>
 
