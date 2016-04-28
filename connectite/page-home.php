@@ -180,11 +180,34 @@ Template Name: Connectite Home Page
 
     <section class="applications">
       <div class="container">
+
           <div class="row">
               <div class="col-md-12">
                   <h3>For Drain, Waste and Vent Applications.*</h3>
               </div>
           </div>
+
+          <div class="row">
+              <div class="col-sm-4">
+                <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/abs.jpg" alt="Connectite ABS">
+              </div>
+              <div class="col-sm-4">
+                <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/pvc.jpg" alt="Connectite PVC">
+              </div>
+              <div class="col-sm-4">
+                <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/remodel.jpg" alt="Connectite Remodel">
+              </div>
+          </div>
+
+           <div class="row">
+              <div class="col-sm-offset-2 col-sm-4">
+                <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/repair.jpg" alt="Connectite Repair">
+              </div>
+              <div class="col-sm-4">
+                <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/venting.jpg" alt="Connectite Venting">
+              </div>
+          </div>
+
       </div>
     </section>
 

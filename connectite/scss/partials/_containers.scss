@@ -76,5 +76,150 @@
 
 
 
+// New code below.. needs to be refactored
+
+
+
+/* Black Section */
+
+.black-section {
+	background-color: #000000;
+	height: 35px;
+}
+
+/* Tagline */ 
+
+.tag-line {
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+}
+
+/* Modal Sections */
+
+.modal-intro h2 {
+	text-align: center;
+	color: #000000;
+}
+
+table {
+	background-color: #656565;
+	color: #ffffff;
+}
+
+td:hover {
+	background-color: #be1e2d;
+}
+
+
+/* Slider */
+
+.bx-wrapper .bx-viewport {
+	background-color: transparent;
+	/*height: 400px;*/
+}
+
+.slider {
+	background-image: url(../images/red_background.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 450px;
+}
+
+.slider-two,
+.slider-three {
+	text-align: center;
+}
+
+.slider-three-image img {
+	margin: 0 auto;
+	-moz-box-shadow: 5px 5px 5px #000000;
+	-webkit-box-shadow: 5px 5px 5px #000000;
+	box-shadow: 5px 5px 5px #000000;
+}
+
+/* Design Tech */
+
+.sub-heading {
+	text-align: center;
+}
+
+.flex-wrap {
+	display: -webkit-flex;
+    -webkit-flex-direction: row;
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-start;
+}
+
+.letter {
+	width: 15%;
+}
+
+.copy {
+	width: 85%;
+}
+
+.design-tech {
+
+}
+
+
+/* Collapse Mobile Menu at 992 */
+
+@media (max-width: 992px) {
+
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+
+  .navbar-default {
+  	background-color: #000000;
+  }
+
+  .navbar-nav > li {
+  	border-right: 0px;
+  }
+
+  .connectite-nav {
+  	height: 100%;
+  	background-color: #000000;
+  }
+
+}
+
+
 
 
