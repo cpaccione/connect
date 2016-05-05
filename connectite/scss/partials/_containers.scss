@@ -14,11 +14,81 @@
 	}
 }
 
+// Features
+
+.modals {
+	padding-bottom: 75px;
+}
+
+.modal-intro {
+
+	padding: 20px 0 70px 0; 
+
+	h2 {
+		color: $black;
+		text-align: center;
+	}
+}
+
+.modal-box {
+	font-family: Helvetica Neue, Arial, sans-serif;
+	font-weight: 300;
+	background-color: $c-gray;
+	width: 475px;
+}
+
+.modal-wrap {
+	border-bottom: 1px solid $white;
+	padding: 5px 0 5px 0;
+}
+
+.modal-wrap a {
+	font-size: 1.25em;
+	color: $white;
+	padding: 20px;
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&:visited {
+		text-decoration: none;
+		outline: none;
+		outline-offset: none;
+	}
+
+	&:focus {
+		text-decoration: none;
+		outline: none;
+		outline-offset: none;
+	}
+}
+
+.modal-wrap:hover {
+	background-color: $red;
+
+	&:active {
+		text-decoration: none;
+	}
+}
+
+.modal-body p {
+	color: $black;
+	font-size: 1.125em;
+}
+
+.modal-title h4 {
+	color: $black;
+	font-size: 2em;
+}
+
+
 // Home Page - Applications
 
 .applications {
-	padding: 45px 0 175px 0;
+	padding: 45px 0 10px 0;
 	background-color: $red;
+	color: $white;
 
 	.section-title {
 		padding-bottom: 100px;
@@ -48,7 +118,7 @@
 
 .circle-base {
 	position: relative;
-	max-width: 400px;
+	max-width: 300px;
 	margin: 0 auto;
 }
 
@@ -57,17 +127,30 @@
 }
 
 .circle-overlay {
+	border-radius: 50%;
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(255,255,255,0.9);
+	background: rgba(142,13,13,0.8);
 	opacity: 0;
 	-webkit-transition: opacity 500ms;
 	-moz-transition: opacity 500ms;
 	-o-transition: opacity 500ms;
 	transition: opacity 500ms;
+
+	img {
+		width: 179px;
+		display: inline-block;
+		padding-top: 55px;
+	}
+}
+
+.applications-small-copy {
+	text-align: center;
+	color: $white;
+	padding: 65px 0 100px 0;
 }
 
 // Home Page - Quick Installation
@@ -144,23 +227,6 @@
 	color: #ffffff;
 	text-align: center;
 }
-
-/* Modal Sections */
-
-.modal-intro h2 {
-	text-align: center;
-	color: #000000;
-}
-
-table {
-	background-color: #656565;
-	color: #ffffff;
-}
-
-td:hover {
-	background-color: #be1e2d;
-}
-
 
 /* Slider */
 

@@ -49,74 +49,197 @@ Template Name: Connectite Home Page
             <img src="<?php bloginfo('template_directory');?>/images/features_image.png" alt="">
           </div>
           <div class="col-sm-6">
-            <table>
-
-              <tr>
-                <td>        
+            <section class="modal-box">
+              <div class="modal-wrap">    
                   <!-- Button trigger modal -->
-                  <a data-toggle="modal" href="#myModal">Easier, Faster Installation</a>
+                  <a data-toggle="modal" href="#one">Easier, Faster Installation</a>
                   <!-- Modal -->
-                  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal fade" id="one" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                       <div class="modal-content">
                         <div class="modal-header">
                           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                          <h4 class="modal-title" id="myModalLabel">Easier, Faster Installation</h4>
                         </div>
                         <div class="modal-body">
-                          ...
+                          <p>ConnecTite joints are over 20 times faster to install than a solvent cement joint.  In a demonstration for Lowe’s, it took me 1 minute and 5 seconds to make a joint with a 2” coupling and piece of pipe. The 2” ConnecTite coupling was installed in five seconds.</p>
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
                         </div>
                       </div>
                     </div>
                   </div>
-                </td>
-              </tr>
-
-              <tr>
-                <td>
-                  Less Downtime
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  No Solvent Cement or Primer
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Can be Repositioned for Proper Alignment &amp; Pitch
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Reversible and Reusable
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Compatible with Both PVC and ABS DWV Pipe
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Does Not Require Any Tools
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Same OD As Solvent Cement DWV Fittings
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Made in USA
-                </td>
-              </tr>
-            </table>
+                </div>
+              <div class="modal-wrap">  
+                  <!-- Button trigger modal -->
+                  <a data-toggle="modal" href="#two">Less Downtime</a>
+                  <!-- Modal -->
+                  <div class="modal fade" id="two" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel">Less Downtime</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>ConnecTite fittings have no cure time. In comparison, a 2” solvent cement joint has a minimum cure time of two hours before it should be tested. This allows a DIYer to quickly complete their DWV project with ConnecTite fittings and spend their time doing something more enjoyable. For a repair plumber, they can move on to their next customer in a fraction of the time, thereby increasing their revenue.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="modal-wrap">  
+                  <!-- Button trigger modal -->
+                  <a data-toggle="modal" href="#three">No Solvent Cement or Primer</a>
+                  <!-- Modal -->
+                  <div class="modal fade" id="three" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel">No Solvent Cement or Primer</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>ConnecTite fittings have no cure time. In comparison, a 2” solvent cement joint has a minimum cure time of two hours before it should be tested. This allows a DIYer to quickly complete their DWV project with ConnecTite fittings and spend their time doing something more enjoyable. For a repair plumber, they can move on to their next customer in a fraction of the time, thereby increasing their revenue.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="modal-wrap">  
+                  <!-- Button trigger modal -->
+                  <a data-toggle="modal" href="#four">Can be Repositioned for Proper Alignment &amp; Pitch</a>
+                  <!-- Modal -->
+                  <div class="modal fade" id="four" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel">Can be Repositioned for Proper Alignment &amp; Pitch</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>ConnecTite fittings have no cure time. In comparison, a 2” solvent cement joint has a minimum cure time of two hours before it should be tested. This allows a DIYer to quickly complete their DWV project with ConnecTite fittings and spend their time doing something more enjoyable. For a repair plumber, they can move on to their next customer in a fraction of the time, thereby increasing their revenue.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="modal-wrap">  
+                  <!-- Button trigger modal -->
+                  <a data-toggle="modal" href="#five">Reversible and Reusable</a>
+                  <!-- Modal -->
+                  <div class="modal fade" id="five" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel">Reversible and Reusable</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>ConnecTite fittings have no cure time. In comparison, a 2” solvent cement joint has a minimum cure time of two hours before it should be tested. This allows a DIYer to quickly complete their DWV project with ConnecTite fittings and spend their time doing something more enjoyable. For a repair plumber, they can move on to their next customer in a fraction of the time, thereby increasing their revenue.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="modal-wrap">  
+                  <!-- Button trigger modal -->
+                  <a data-toggle="modal" href="#six">Compatible with Both PVC and ABS DWV Pipe</a>
+                  <!-- Modal -->
+                  <div class="modal fade" id="six" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel">Compatible with Both PVC and ABS DWV Pipe</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>ConnecTite fittings have no cure time. In comparison, a 2” solvent cement joint has a minimum cure time of two hours before it should be tested. This allows a DIYer to quickly complete their DWV project with ConnecTite fittings and spend their time doing something more enjoyable. For a repair plumber, they can move on to their next customer in a fraction of the time, thereby increasing their revenue.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="modal-wrap">  
+                  <!-- Button trigger modal -->
+                  <a data-toggle="modal" href="#seven">Does Not Require Any Tools</a>
+                  <!-- Modal -->
+                  <div class="modal fade" id="seven" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel">Does Not Require Any Tools</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>ConnecTite fittings have no cure time. In comparison, a 2” solvent cement joint has a minimum cure time of two hours before it should be tested. This allows a DIYer to quickly complete their DWV project with ConnecTite fittings and spend their time doing something more enjoyable. For a repair plumber, they can move on to their next customer in a fraction of the time, thereby increasing their revenue.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="modal-wrap">  
+                  <!-- Button trigger modal -->
+                  <a data-toggle="modal" href="#eight">Same OD As Solvent Cement DWV Fittings</a>
+                  <!-- Modal -->
+                  <div class="modal fade" id="eight" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel">Same OD As Solvent Cement DWV Fittings</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>ConnecTite fittings have no cure time. In comparison, a 2” solvent cement joint has a minimum cure time of two hours before it should be tested. This allows a DIYer to quickly complete their DWV project with ConnecTite fittings and spend their time doing something more enjoyable. For a repair plumber, they can move on to their next customer in a fraction of the time, thereby increasing their revenue.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="modal-wrap">  
+                  <!-- Button trigger modal -->
+                  <a data-toggle="modal" href="#nine">Made in USA</a>
+                  <!-- Modal -->
+                  <div class="modal fade" id="nine" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel">Made in USA</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>ConnecTite fittings have no cure time. In comparison, a 2” solvent cement joint has a minimum cure time of two hours before it should be tested. This allows a DIYer to quickly complete their DWV project with ConnecTite fittings and spend their time doing something more enjoyable. For a repair plumber, they can move on to their next customer in a fraction of the time, thereby increasing their revenue.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </section>
           </div>
         </div>
       </div>
@@ -191,45 +314,84 @@ Template Name: Connectite Home Page
           </div>
 
           <div class="row app-first-row">
+
               <div class="col-sm-4">
+
                 <div class="circle-wrap">
+
                   <div class="circle-base">
                     <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/abs.jpg" alt="Connectite ABS">
                     <div class="circle-overlay">
-                      +
+                      <img src="<?php bloginfo('template_directory'); ?>/images/plus-12.svg" alt="Connectite">
                     </div>
                   </div>
 
                   <p>ABS DWV</p>
+
                 </div>
+
               </div>
+
               <div class="col-sm-4">
+
                 <div class="circle-wrap">
-                  <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/pvc.jpg" alt="Connectite PVC">
+
+                  <div class="circle-base">
+                    <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/pvc.jpg" alt="Connectite PVC">
+                      <div class="circle-overlay">
+                        <img src="<?php bloginfo('template_directory'); ?>/images/plus-12.svg" alt="Connectite">
+                      </div>
+                  </div>
                   <p>PVC DWV</p>
                 </div>
               </div>
+
               <div class="col-sm-4">
                 <div class="circle-wrap">
-                  <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/remodel.jpg" alt="Connectite Remodel">
-                  <p>Remodel</p>
-                </div>
+                  <div class="circle-base">
+                    <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/remodel.jpg" alt="Connectite Remodel">
+                      <div class="circle-overlay">
+                        <img src="<?php bloginfo('template_directory'); ?>/images/plus-12.svg" alt="Connectite">
+                      </div>
+                    </div>
+                    <p>Remodel</p>
+                  </div>
               </div>
-          </div>
+              </div>
+
+
 
            <div class="row">
               <div class="col-sm-offset-2 col-sm-4">
                 <div class="circle-wrap">
+                <div class="circle-base">
                   <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/repair.jpg" alt="Connectite Repair">
+                  <div class="circle-overlay">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/plus-12.svg" alt="Connectite">
+                  </div>
+                  </div>
                   <p>Repair</p>
                 </div>
               </div>
               <div class="col-sm-4">
                 <div class="circle-wrap">
+                  <div class="circle-base">
                   <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/venting.jpg" alt="Connectite Venting">
+                  <div class="circle-overlay">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/plus-12.svg" alt="Connectite">
+                  </div>
+                  </div>
                   <p>Venting</p>
                 </div>
               </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="applications-small-copy">
+                <small><sup>*</sup>Not for pressure.</small>  
+              </div>
+            </div>
           </div>
 
       </div>
