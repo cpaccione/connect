@@ -9,9 +9,9 @@ jQuery(document).ready(function($) {
 
     // Bootstrap drop-down on hover
 
-    $('.navbar [data-toggle="dropdown"]').bootstrapDropdownHover({
+    // $('.navbar [data-toggle="dropdown"]').bootstrapDropdownHover({
         
-    });
+    // });
 
     // Smooth Scroll
 
@@ -27,7 +27,6 @@ jQuery(document).ready(function($) {
 	        window.location.hash = target;
 	    });
 	});
-
 
 });
 
