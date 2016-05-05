@@ -16,6 +16,14 @@
 
 // Features
 
+.call-out {
+	padding: 10px 0 10px 0;
+
+	p {
+		margin: 0;
+	}
+}
+
 .modals {
 	padding-bottom: 75px;
 }
@@ -257,6 +265,15 @@
 
 /* Design Tech */
 
+.lock-and-ring {
+	padding: 50px 25px 0 0;
+}
+
+.lock-ring-list {
+	font-size: 1.875em;
+	margin-left: 52px;
+}
+
 .sub-heading {
 	text-align: center;
 }
@@ -275,10 +292,6 @@
 
 .copy {
 	width: 85%;
-}
-
-.design-tech {
-
 }
 
 

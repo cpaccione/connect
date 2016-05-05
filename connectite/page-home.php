@@ -21,7 +21,9 @@ Template Name: Connectite Home Page
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <p>Connects Right. Seals Tight. Every Time.&#8482;</p>
+            <div class="call-out">
+              <p>Connects Right. Seals Tight. Every Time.<sup>&#174;</sup></p>  
+            </div>
           </div>
         </div>
       </div>
@@ -267,28 +269,37 @@ Template Name: Connectite Home Page
             <img src="<?php bloginfo('template_directory');?>/images/design_technology_image.png" alt="Patented Lock Ring &amp; Seal.">
           </div>
           <div class="col-sm-6">
-            <div class="flex-wrap">
-              <div class="letter"><img src="<?php bloginfo('template_directory');?>/images/letter_a.png"></div>
-              <div class="copy"><p>Patented lock ring ensures connection is secure</p></div>
-            </div>
-            <div class="flex-wrap">
-              <div class="letter"><img src="<?php bloginfo('template_directory');?>/images/letter_b.png"></div>
-              <div class="copy"><p>Rubber gasket creates a tight seal</p></div>
-            </div>
-            <div class="flex-wrap">
-              <div class="letter"><img src="<?php bloginfo('template_directory');?>/images/letter_c.png"></div>
-              <div class="copy"><p>High-quality molded Schedule 40 fitting body</p></div>
-            </div>
+            <div class="lock-and-ring">
 
-            <ul>
-              <li>No tools</li>
-              <li>Less downtime</li>
-              <li>Reversible and reusable</li>
-              <li>Compatible with both ABS and PVC pipe</li>
-            </ul>
-            <p>*NOT FOR PRESSURE.</p>
+              <div class="flex-wrap">
+                <div class="letter"><img src="<?php bloginfo('template_directory');?>/images/letter_a.png"></div>
+                <div class="copy"><p>Patented lock ring ensures connection is secure</p></div>
+              </div>
+              <div class="flex-wrap">
+                <div class="letter"><img src="<?php bloginfo('template_directory');?>/images/letter_b.png"></div>
+                <div class="copy"><p>Rubber gasket creates a tight seal</p></div>
+              </div>
+              <div class="flex-wrap">
+                <div class="letter"><img src="<?php bloginfo('template_directory');?>/images/letter_c.png"></div>
+                <div class="copy"><p>High-quality molded Schedule 40 fitting body</p></div>
+              </div>
+
+              <ul class="lock-ring-list">
+                <li>No tools</li>
+                <li>Less downtime</li>
+                <li>Reversible and reusable</li>
+                <li>Compatible with both ABS and PVC pipe</li>
+              </ul>
+            </div> <!-- lock and ring close --> 
           </div>
         </div>
+
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <small><sup>*</sup>Not for pressure.</small>
+          </div>
+        </div>
+
       </div>
     </section>
 
