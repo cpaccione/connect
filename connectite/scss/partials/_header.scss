@@ -1,4 +1,4 @@
-// Hero Background Images
+// Background Images
 
 .hero-image {
 	background-image: url('../images/connectite-pipe-bg.png');
@@ -6,6 +6,24 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 450px;
+}
+
+.features {
+	background-image: url(../images/features-bg.jpg);
+	background-size: cover;
+	// background-position: center;
+	background-repeat: no-repeat;
+	background-color: #000000;
+	height: 250px;
+}
+
+.shaded-pipe-bg {
+	background-image: url(../images/grey-pipe-bg.jpg);
+	background-size: cover;
+	// background-position: center;
+	background-repeat: no-repeat;
+	background-color: #000000;
+	height: 250px;
 }
 
 .hero-image-copy {
@@ -119,6 +137,15 @@
 	}
 }
 
+.navbar-default .navbar-nav>.active>a {
+	color: $white;
+	background-color: transparent;
+	&:hover {
+		color: $red;
+		background-color: transparent;
+	}
+}
+
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
 	color: #be1e2d;
@@ -144,23 +171,3 @@
 	padding-bottom: 50px;
 }
 
-
-/* Background Images */
-
-.features {
-	background-image: url(../images/features-bg.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-color: #000000;
-	height: 250px;
-}
-
-.shaded-pipe-bg {
-	background-image: url(../images/grey-pipe-bg.jpg);
-	background-position: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-color: #000000;
-	height: 250px;
-}

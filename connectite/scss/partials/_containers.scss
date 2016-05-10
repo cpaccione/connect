@@ -216,6 +216,83 @@
 }
 
 
+// FAQs
+
+#accordion {
+
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-weight: 300;
+	padding: 75px 0 75px 0;
+
+	h3 {
+		font-size: 1.875rem;
+		color: $c-gray;
+	}
+
+	p {
+		font-size: 1.375rem;
+		color: $black;
+	}
+}
+
+.ui-state-default {
+	background: none;
+	border: 2px solid $accordion-gray;
+	border-radius: 0px;
+}
+
+.ui-widget-content {
+	background-image: none;
+	background-color: $accordion-gray;
+}
+
+// Store Locations
+
+.location-wrap {
+
+	h3 {
+		font-size: 1.5em;
+		margin: 0;
+		color: $red;
+	}
+
+	p {
+		font-size: 1.25em;
+		color: $c-gray;
+	}
+}
+
+.location-intro {
+
+	h2 {
+		color: $black;
+		text-align: center;
+	}
+
+}
+
+ul.direction-list {
+	text-align: center;
+	list-style: none;
+	display: inline-flex;
+	padding: 0;
+
+	li {
+		padding-right: 1em;
+	}
+}
+
+
+// Footer 
+
+.small-copy-wrap {
+	text-align: center;
+
+	p {
+		font-size: 0.875em;
+		color: $c-gray;
+	}
+}
 
 // New code below.. needs to be refactored
 

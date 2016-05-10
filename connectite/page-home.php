@@ -117,7 +117,7 @@ Template Name: Connectite Home Page
               </div>
               <div class="modal-wrap">  
                   <!-- Button trigger modal -->
-                  <a data-toggle="modal" href="#four">Can be Repositioned for Proper Alignment &amp; Pitch</a>
+                  <a data-toggle="modal" href="four">Can be Repositioned for Proper Alignment &amp; Pitch</a>
                   <!-- Modal -->
                   <div class="modal fade" id="four" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
@@ -528,6 +528,6 @@ Template Name: Connectite Home Page
 
       </div><!-- /.container -->
     </section>
-    <section class="black-section"></section>
+
 
 <?php get_footer(); ?>

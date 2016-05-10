@@ -22,5 +22,25 @@ h3 {
 }
 
 p {
-	font-size: 1.875em;
+	// font-size: 1.875em;
+	font-size: 1em;
+}
+
+
+.fa-globe,
+.fa-map-marker {
+	color: $black;
+
+	&:hover {
+		color: $red;
+	}
+}
+
+.direction-list a p {
+	color: $black;
+
+	&:hover {
+		text-decoration: none;
+		color: $red;
+	}
 }
