@@ -6,6 +6,14 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 450px;
+
+	@media #{$brk-small} {
+		height: 100%;
+
+		h1 {
+			font-size: 3em;
+		}
+	}
 }
 
 .features {
@@ -31,7 +39,13 @@
 	h1 {
 		padding: 0;
 		margin: 0;
+
+		@media #{$brk-small} {
+			padding-bottom: 25px;
+		}
 	}
+
+
 
 	img {
 		padding-top: 20px;
@@ -57,8 +71,8 @@
           transition-timing-function: cubic-bezier(0.7, 0, 0, 0.7);
 }
 .navbar-toggle:not(.collapsed) .icon-bar:nth-child(1) {
-  -webkit-transform: translateY(9px) rotate(45deg);
-          transform: translateY(9px) rotate(45deg);
+  -webkit-transform: translateY(8px) rotate(45deg);
+          transform: translateY(8px) rotate(45deg);
 }
 .navbar-toggle:not(.collapsed) .icon-bar:nth-child(2) {
   opacity: 0;
@@ -66,8 +80,8 @@
           transform: translateX(-100%);
 }
 .navbar-toggle:not(.collapsed) .icon-bar:nth-child(3) {
-  -webkit-transform: translateY(-9px) rotate(-45deg);
-          transform: translateY(-9px) rotate(-45deg);
+  -webkit-transform: translateY(-11px) rotate(-45deg);
+          transform: translateY(-11px) rotate(-45deg);
 }
 
 .navbar-default .navbar-toggle {

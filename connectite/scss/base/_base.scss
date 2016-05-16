@@ -9,3 +9,16 @@ body {
 	font-weight: 300;
 }
 
+input:focus,
+textarea {
+	outline: none;
+}
+
+sup {
+	font-size: 0.75rem;
+	top: -1.5em;
+
+	@media #{$brk-small} {
+		top: -.5em;
+	}
+}

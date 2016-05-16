@@ -22,6 +22,14 @@
 	p {
 		margin: 0;
 	}
+
+	@media #{$brk-small} {
+
+		p {
+			font-size: 1em;	
+		}		
+	}
+
 }
 
 .modals {
@@ -279,6 +287,100 @@ ul.direction-list {
 
 	li {
 		padding-right: 1em;
+	}
+}
+
+
+// Contact Form Seven/7
+
+.contact-form {
+	padding: 75px 0px;
+
+	@media #{$brk-lessWide} {
+		padding: 25px 0px;
+	}
+}
+
+.wpcf7 {
+
+	p {
+		margin-bottom: 2px;
+		color: $c-gray;
+		font-size: 1.75em;
+	}
+
+	input[type="submit"] {
+		width: 100%;
+		background-color: $red;
+		color: $white;
+		border: 0px;
+		height: 75px;
+
+		&:hover {
+			background-color: $black;
+			color: $white;
+		}
+	}
+
+	input[type="text"],
+	input[type="email"] {
+		background-color: $contact-form-gray;
+		color: $c-gray;
+		padding-left: 20px;
+		height: 75px;
+		width: 100%;
+		border: 0px;
+	}
+
+	textarea {
+		background-color: $contact-form-gray;
+		color: $c-gray;
+		padding-left: 20px;
+		width: 100%;
+		border: 0px;
+	}
+
+}
+
+.wpcf7 input[type="text"]:focus,
+.wpcf7 input[type="email"]:focus,
+.wpcf7 textarea:focus {
+	background-color: #cdcdcd;
+	color: $c-gray;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+color: $contact-form-copy !important;
+opacity: 1;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color: $contact-form-copy !important;
+opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+color: $contact-form-copy !important;
+opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+color: $contact-form-copy !important;
+opacity: 1;
+}
+
+// Contact Form Sidebar
+
+.contact-form-sidebar {
+	
+	p {
+		font-size: 1.75rem;
+	}
+
+	a {
+		text-decoration: underline;
+		color: $red;
+	}
+
+	a:hover {
+		color: $c-gray;
 	}
 }
 
