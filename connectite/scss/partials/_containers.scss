@@ -32,6 +32,22 @@
 
 }
 
+.modal-content {
+	background-color: rgba(255,255,255,.9);
+
+	h4 {
+		font-size: 1.5em;
+		text-align: left;
+		color: $black;
+	}
+
+	p {
+		font-size: 1.125em;
+		text-align: left;
+		color: $black;
+	}
+}
+
 .modals {
 	padding-bottom: 75px;
 }
@@ -95,7 +111,7 @@
 
 .modal-title h4 {
 	color: $black;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 
@@ -115,10 +131,10 @@
 		text-align: center;
 	}
 
-	p {
-		font-size: 2.5em;
-		padding-top: 30px;
-	}
+	// p {
+	// 	font-size: 2.5em;
+	// 	padding-top: 30px;
+	// }
 }
 
 .app-first-row {
@@ -129,6 +145,22 @@
 	text-align: center;
 	color: $white;
 }
+
+// .circle-modal-body p {
+// 	text-align: left;
+// 	padding: 20px;
+// 	color: $black;
+// 	font-size: 1.125em;
+// }
+
+// h4.circle-modal-title {
+// 	color: $black;
+// 	text-align: left;
+// 	font-size: 1.5em;
+// 	margin: 0;
+// }
+
+
 
 /* Product Overlay */
 
@@ -258,6 +290,10 @@
 
 .location-wrap {
 
+	width: 65%;
+	margin: 0 auto;
+	padding-bottom: 45px;
+
 	h3 {
 		font-size: 1.5em;
 		margin: 0;
@@ -271,6 +307,8 @@
 }
 
 .location-intro {
+
+	padding: 35px 0 75px 0;
 
 	h2 {
 		color: $black;

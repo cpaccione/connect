@@ -71,8 +71,13 @@ Template Name: Locations
 
 									<div class="directions">
 										<ul class="direction-list">
-											<a href="<?php echo $web_link; ?>" target="_blank"><li><i class="fa fa-globe fa-3x" aria-hidden="true"></i><p>Website</p></li></a>
-											<a href="<?php echo $google_link; ?>" target="_blank"><li><i class="fa fa-map-marker fa-3x" aria-hidden="true"></i><p>Directions</p></li></a>
+
+											<a href="<?php echo $web_link; ?>" target="_blank">
+												<li><i class="fa fa-globe fa-3x" aria-hidden="true"></i><p>Website</p></li>
+											</a>
+											<a href="<?php echo $google_link; ?>" target="_blank">
+												<li><i class="fa fa-map-marker fa-3x" aria-hidden="true"></i><p>Directions</p></li>
+											</a>
 										</ul>
 									</div>
 								</div>

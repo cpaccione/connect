@@ -117,7 +117,7 @@ Template Name: Connectite Home Page
               </div>
               <div class="modal-wrap">  
                   <!-- Button trigger modal -->
-                  <a data-toggle="modal" href="four">Can be Repositioned for Proper Alignment &amp; Pitch</a>
+                  <a data-toggle="modal" href="#four">Can be Repositioned for Proper Alignment &amp; Pitch</a>
                   <!-- Modal -->
                   <div class="modal fade" id="four" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
@@ -247,7 +247,7 @@ Template Name: Connectite Home Page
       </div>
     </section>
 
-    <section class="black-section"></section>
+    <!-- <section class="black-section"></section> -->
     <section class="shaded-pipe-bg" id="design-technology">
       <div class="container">
         <div class="row">
@@ -303,7 +303,7 @@ Template Name: Connectite Home Page
       </div>
     </section>
 
-    <section class="black-section"></section>
+    <!-- <section class="black-section"></section> -->
     <section class="shaded-pipe-bg" id="applications">
       <div class="container">
         <div class="row">
@@ -331,55 +331,147 @@ Template Name: Connectite Home Page
                 <div class="circle-wrap">
 
                   <div class="circle-base">
+
+                    <!-- image  -->
                     <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/abs.jpg" alt="Connectite ABS">
-                    <div class="circle-overlay">
+
+                    <!-- plus symbol -->
+                    <a data-toggle="modal" href="#absdwv"><div class="circle-overlay">
                       <img src="<?php bloginfo('template_directory'); ?>/images/plus-12.svg" alt="Connectite">
-                    </div>
-                  </div>
+                    </div></a>
+
+                    <div class="modal fade" id="absdwv" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">ABS DWV</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Use ConnecTite fittings with ABS pipe for simple, fast and reliable installations with minimal downtime. As an added benefit, ConnecTite fittings can be used to transition from ABS to PVC without the need for special transition solvent cement.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div> <!-- modal close -->
+
+                  </div> <!-- circle-base close -->
 
                   <p>ABS DWV</p>
 
-                </div>
+                </div> <!-- circle-wrap close -->
 
-              </div>
+              </div> <!-- col-sm-4 close -->
+
 
               <div class="col-sm-4">
 
                 <div class="circle-wrap">
 
                   <div class="circle-base">
+
                     <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/pvc.jpg" alt="Connectite PVC">
-                      <div class="circle-overlay">
+
+                      <a data-toggle="modal" href="#pvcdwv"><div class="circle-overlay">
                         <img src="<?php bloginfo('template_directory'); ?>/images/plus-12.svg" alt="Connectite">
+                      </div></a>
+
+                    <div class="modal fade" id="pvcdwv" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">PVC DWV</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>ConnecTite fittings can be used in any PVC non-pressure line in your house or building. Using ConnecTite fittings will allow you to quickly complete a project while having the peace of mind knowing that the product is reliably made in the USA.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
                       </div>
+                    </div>
                   </div>
+
                   <p>PVC DWV</p>
                 </div>
               </div>
 
               <div class="col-sm-4">
                 <div class="circle-wrap">
+
                   <div class="circle-base">
+
                     <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/remodel.jpg" alt="Connectite Remodel">
-                      <div class="circle-overlay">
+
+                      <a data-toggle="modal" href="#remodel"><div class="circle-overlay">
                         <img src="<?php bloginfo('template_directory'); ?>/images/plus-12.svg" alt="Connectite">
-                      </div>
-                    </div>
+                      </div></a>
+
+                      <div class="modal fade" id="remodel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Remodel</h4>
+                              </div>
+
+                              <div class="modal-body">
+                                <p>When doing remodel work, you have to work within some existing framework. ConnecTite fittings allow you to easily do this as they fit within the confines of a 2” x 4” stud wall and can be repositioned for proper alignment to existing drain lines.</p>
+                              </div>
+
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+
+                      </div> <!-- modal close -->
+
+                    </div> <!-- circle-base close -->
+
                     <p>Remodel</p>
-                  </div>
-              </div>
-              </div>
 
+              </div> <!-- circle-wrap close -->
+              </div> <!-- col-sm-4 close -->
 
+              <!-- first row close -->
+              </div> 
 
            <div class="row">
               <div class="col-sm-offset-2 col-sm-4">
                 <div class="circle-wrap">
                 <div class="circle-base">
+
                   <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/repair.jpg" alt="Connectite Repair">
-                  <div class="circle-overlay">
+
+                  <a data-toggle="modal" href="#repair"><div class="circle-overlay">
                     <img src="<?php bloginfo('template_directory'); ?>/images/plus-12.svg" alt="Connectite">
-                  </div>
+                  </div></a>
+
+                      <div class="modal fade" id="repair" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Repair</h4>
+                              </div>
+                              <div class="modal-body">
+                                <p>Traditional solvent cement connections do not allow any margin for error. However, ConnecTite fittings can be completely reversed without any tools. This feature allows you multiple opportunities to ensure your measurements are correct when taking on a repair project.</p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                   </div>
                   <p>Repair</p>
                 </div>
@@ -387,10 +479,30 @@ Template Name: Connectite Home Page
               <div class="col-sm-4">
                 <div class="circle-wrap">
                   <div class="circle-base">
+
                   <img class="img-circle center-block" src="<?php bloginfo('template_directory');?>/images/venting.jpg" alt="Connectite Venting">
-                  <div class="circle-overlay">
+
+                  <a data-toggle="modal" href="#venting"><div class="circle-overlay">
                     <img src="<?php bloginfo('template_directory'); ?>/images/plus-12.svg" alt="Connectite">
-                  </div>
+                  </div></a>
+
+                      <div class="modal fade" id="venting" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Venting</h4>
+                              </div>
+                              <div class="modal-body">
+                                <p>Properly functioning vents are critical to plumbing systems. Whether making a repair to an existing vent line or installing a new vent line, ConnecTite fittings allow you to make fast and reliable connections, even if the connection is in a hard-to-reach location.</p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
                   </div>
                   <p>Venting</p>
                 </div>
@@ -408,7 +520,7 @@ Template Name: Connectite Home Page
       </div>
     </section>
 
-    <section class="black-section"></section>
+    <!-- <section class="black-section"></section> -->
 
     <section class="shaded-pipe-bg" id="quick-installation">
       <div class="container">
@@ -431,7 +543,10 @@ Template Name: Connectite Home Page
 
             <div class="col-md-12">
               <div class="video-wrapper">
-                  <img src="<?php bloginfo('template_directory') ?>/images/video_place_holder.png" alt="Connectite Video">
+                <video width="100%" height="100%" controls poster="<?php bloginfo('template_directory') ?>/images/video_place_holder.png" alt="Connectite Video">
+                  <source src="<?php bloginfo('template_directory')?>/video/ConnecTite_V8.mp4" type="video/mp4">
+                  <p>Your browser does not support this video file.</p>
+                </video>
               </div>
             </div>
 
@@ -445,7 +560,7 @@ Template Name: Connectite Home Page
       </div>
     </section>
     
-    <section class="black-section"></section>
+    <!-- <section class="black-section"></section> -->
     <section class="shaded-pipe-bg" id="available-products">
       <div class="container">
         <div class="row">
