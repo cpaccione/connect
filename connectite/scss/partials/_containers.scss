@@ -67,6 +67,11 @@
 	font-weight: 300;
 	background-color: $c-gray;
 	width: 475px;
+
+	@media #{$brk-small} {
+		width: 100%;
+	}
+	
 }
 
 .modal-wrap {

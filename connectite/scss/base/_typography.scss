@@ -6,6 +6,11 @@ h1 {
 	text-align: center;
 	font-weight: 700;
 	padding: 50px 0 50px 0;
+
+	@media #{$brk-small} {
+		font-size: 2.5em;
+	}
+	
 }
 
 /* slider and sub section headlines */

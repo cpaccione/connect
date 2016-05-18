@@ -23,6 +23,10 @@
 	background-repeat: no-repeat;
 	background-color: #000000;
 	height: 250px;
+
+	@media #{$brk-small} {
+		height: 100%;
+	}
 }
 
 .shaded-pipe-bg {
@@ -32,6 +36,11 @@
 	background-repeat: no-repeat;
 	background-color: #000000;
 	height: 250px;
+
+	@media #{$brk-small} {
+		height: 100%;
+	}
+
 }
 
 .hero-image-copy {
