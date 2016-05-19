@@ -55,7 +55,7 @@ Template Name: Locations
 						$store = get_sub_field('store_name');
 						$store_location = get_sub_field('store_location');
 						$store_address = get_sub_field('store_address');
-						$web_link = get_sub_field('website_link');
+						// $web_link = get_sub_field('website_link');
 						$google_link = get_sub_field('directions_link');
 
 
@@ -72,9 +72,9 @@ Template Name: Locations
 									<div class="directions">
 										<ul class="direction-list">
 
-											<a href="<?php echo $web_link; ?>" target="_blank">
+<!-- 											<a href="<?php echo $web_link; ?>" target="_blank">
 												<li><i class="fa fa-globe fa-3x" aria-hidden="true"></i><p>Website</p></li>
-											</a>
+											</a> -->
 											<a href="<?php echo $google_link; ?>" target="_blank">
 												<li><i class="fa fa-map-marker fa-3x" aria-hidden="true"></i><p>Directions</p></li>
 											</a>

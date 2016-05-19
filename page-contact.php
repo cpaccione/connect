@@ -44,9 +44,8 @@ Template Name: Contact
 					and Foundry Company<br>
 					2109 Randolph Road<br>
 					Charlotte, NC 28207</p>
-					<p>000-000-000<br>
+					<p>(800) 438-6091<br>
 					<a href="mailto:info@connectite.com">info@connectite.com</a></p>
-					<p><a href="/store-locations/">Store Locations</a></p>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-7 col-md-pull-5">

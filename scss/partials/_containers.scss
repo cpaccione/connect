@@ -71,7 +71,7 @@
 	@media #{$brk-small} {
 		width: 100%;
 	}
-	
+
 }
 
 .modal-wrap {
@@ -123,23 +123,28 @@
 // Home Page - Applications
 
 .applications {
-	padding: 45px 0 10px 0;
+	padding: 0 0 75px 0;
 	background-color: $red;
 	color: $white;
 
 	.section-title {
-		padding-bottom: 100px;
+		padding: 20px 0 70px 0;
+		text-align: center;
 	}
 
 	h3 {
 		color: $white;
-		text-align: center;
 	}
 
 	// p {
 	// 	font-size: 2.5em;
 	// 	padding-top: 30px;
 	// }
+}
+
+.circle-name p {
+	padding-top: 20px;
+	font-size: 1.5em;
 }
 
 .app-first-row {
@@ -203,7 +208,7 @@
 .applications-small-copy {
 	text-align: center;
 	color: $white;
-	padding: 65px 0 100px 0;
+	padding: 0 0 75px 0;
 }
 
 // Home Page - Quick Installation
@@ -212,8 +217,14 @@
 	text-align: center;
 }
 
-.video-wrapper img {
-	margin: 0 auto;
+.video-wrapper {
+
+	padding: 70px 0 50px 0;
+
+	img {
+		margin: 0 auto;
+	}
+
 }
 
 // Home Page - Available Products
@@ -487,6 +498,10 @@ opacity: 1;
 
 /* Design Tech */
 
+.design-tech {
+	padding-bottom: 75px;
+}
+
 .lock-and-ring {
 	padding: 50px 25px 0 0;
 }
@@ -498,6 +513,7 @@ opacity: 1;
 
 .sub-heading {
 	text-align: center;
+	padding-top: 20px;
 }
 
 .flex-wrap {
