@@ -1,0 +1,18 @@
+// Footer 
+
+.small-copy-wrap {
+	text-align: center;
+
+	p {
+		font-size: 0.875em;
+		color: $c-gray;
+	}
+}
+
+#menu-footer-menu {
+	display: inline-flex;
+
+	li {
+		padding-right: 25px;
+	}
+}

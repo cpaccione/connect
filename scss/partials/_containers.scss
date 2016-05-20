@@ -79,6 +79,25 @@
 	padding: 5px 0 5px 0;
 }
 
+a .modal-wrap p {
+	font-size: 1.25em;
+	color: $white;
+	padding: 5px 0 5px 20px;
+	margin: 0;
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&:visited {
+		text-decoration: none;
+	}
+
+	&:focus {
+		outline: none;
+	}
+}
+
 .modal-wrap a {
 	font-size: 1.25em;
 	color: $white;
@@ -281,15 +300,23 @@
 	padding: 75px 0 75px 0;
 
 	h3 {
-		font-size: 1.875rem;
+		font-size: 1.5rem;
 		color: $c-gray;
 	}
 
 	p {
-		font-size: 1.375rem;
+		font-size: 1rem;
 		color: $black;
 	}
+
+	ul li {
+		font-size: 1rem;
+	}
 }
+
+.ui-accordion .ui-accordion-content {
+    padding: 2em 3em;
+ }
 
 .ui-state-default {
 	background: none;
@@ -434,18 +461,6 @@ opacity: 1;
 	}
 
 	a:hover {
-		color: $c-gray;
-	}
-}
-
-
-// Footer 
-
-.small-copy-wrap {
-	text-align: center;
-
-	p {
-		font-size: 0.875em;
 		color: $c-gray;
 	}
 }

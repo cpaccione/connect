@@ -39,6 +39,7 @@ add_action( 'wp_enqueue_scripts', 'theme_js' );
 //add_theme_support( 'menus' ); // This is to set the custom and dynamic menus
 register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'thermflo' ),
+    'footer' => __( 'Footer Menu', 'thermflo')
 ) );
 
 require_once('wp_bootstrap_navwalker.php'); // Register Custom Navigation Walker

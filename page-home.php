@@ -39,6 +39,7 @@ Template Name: Connectite Home Page
 
     <section class="modals">
       <div class="container">
+
         <div class="row">
           <div class="col-sm-12">
             <div class="modal-intro">
@@ -46,27 +47,39 @@ Template Name: Connectite Home Page
             </div>
           </div>
         </div>
+
         <div class="row">
+
           <div class="col-sm-6">
             <img src="<?php bloginfo('template_directory');?>/images/features_image.png" alt="">
           </div>
+
           <div class="col-sm-6">
             <section class="modal-box">
-              <a data-toggle="modal" href="#one"><div class="modal-wrap">    
-                  <!-- Button trigger modal -->
-                  Easier, Faster Installation
-                </div></a>
+
+                <?php if( have_rows('modals') ): ?>
+
+                  <?php while(have_rows('modals') ): the_row(); ?>
+
+
+              
+                <a data-toggle="modal" href="#<?php the_sub_field('modal_id'); ?>">
+                  <div class="modal-wrap">    
+                    <!-- Button trigger modal -->
+                    <p><?php the_sub_field('modal_name'); ?></p>
+                  </div>
+                </a>
 
                   <!-- Modal -->
-                  <div class="modal fade" id="one" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal fade" id="<?php the_sub_field('modal_id'); ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                       <div class="modal-content">
                         <div class="modal-header">
                           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <h4 class="modal-title" id="myModalLabel">Easier, Faster Installation</h4>
+                          <h4 class="modal-title" id="myModalLabel"><?php the_sub_field('modal_heading'); ?></h4>
                         </div>
                         <div class="modal-body">
-                          <p>ConnecTite joints are over 20 times faster to install than a solvent cement joint.  In a demonstration for Lowe’s, it took me 1 minute and 5 seconds to make a joint with a 2” coupling and piece of pipe. The 2” ConnecTite coupling was installed in five seconds.</p>
+                          <?php the_sub_field('modal_copy'); ?>
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -74,187 +87,17 @@ Template Name: Connectite Home Page
                       </div>
                     </div>
                   </div>
+                  <!-- modal close -->
 
-              <div class="modal-wrap">  
-                  <!-- Button trigger modal -->
-                  <a data-toggle="modal" href="#two">Less Downtime</a>
-                  <!-- Modal -->
-                  <div class="modal fade" id="two" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <h4 class="modal-title" id="myModalLabel">Less Downtime</h4>
-                        </div>
-                        <div class="modal-body">
-                          <p>ConnecTite fittings have no cure time. In comparison, a 2” solvent cement joint has a minimum cure time of two hours before it should be tested.</p>
-                          <p>This allows a DIYer to quickly complete their DWV project with ConnecTite fittings and spend their time doing something more enjoyable. For a repair plumber, they can move on to their next customer in a fraction of the time, thereby increasing their revenue.</p>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-              <div class="modal-wrap">  
-                  <!-- Button trigger modal -->
-                  <a data-toggle="modal" href="#three">No Solvent Cement or Primer</a>
-                  <!-- Modal -->
-                  <div class="modal fade" id="three" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <h4 class="modal-title" id="myModalLabel">No Solvent Cement or Primer</h4>
-                        </div>
-                        <div class="modal-body">
-                          <p><b>Better for Health and Safety</b> – There are concerns that exposure to the solvent cement and primers in general, and THF in particular, have adverse health effects. The chemicals in solvent cement are suspected to be human carcinogens by several groups. At ISH in March 2015, we spoke with a European solvent cement manufacturer, and they told us, “The packaging for PVC cement with THF has to indicate that the stuff causes cancer. So the market is pretty much demanding the THF-free cement.” Recently the World Health Organization came close to placing a key ingredient in solvent cement on the UN Convention on Psychotropic Substances list.</p>
+                <?php endwhile; ?>
 
-                          <p><b>More environmentally friendly</b> – In recent years, all solvent cements have moved to Low Volatile Organic Compounds (VOCs) due to their negative impact on the environment. Also, many green building ratings systems require the elimination of products with VOCs over certain limits. There is a possibility that at some point in the future solvent cements will be banned in the US for environmental reasons.</p>
+              <?php endif; ?>
 
-                          <p><b>Eliminates confusion over which solvent cement to use</b> – If you go to lowes.com and search for “cement and primer,” you get 25 different returns for products. This is overwhelming to your average DIYer.</p>
-
-                          <p><b>Eliminates the hazardous waste disposal of out-of-date cans of cement and primer</b> – Lowe’s agreed with me that 99% of the solvent cement and primer bought by DIYers dries out or expires before it is used. These products are not to be discarded with regular trash. It has to be disposed of as hazardous waste.</p>
-
-                          <p><b>No mess</b> – Spilling purple primer is almost inevitable, especially for a DIYer.  When this happens, there is no way to clean it up. This is of particular concern if you are making a solvent cement joint in a finished area.</p>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-              <div class="modal-wrap">  
-                  <!-- Button trigger modal -->
-                  <a data-toggle="modal" href="#four">Can be Repositioned</a>
-                  <!-- Modal -->
-                  <div class="modal fade" id="four" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <h4 class="modal-title" id="myModalLabel">Can be Repositioned</h4>
-                        </div>
-                        <div class="modal-body">
-                          <p>With a ConnecTite fitting, you can simply twist the fitting into proper alignment.  This is helpful when you are using a fitting with a bend (90° Elbow, 45° Elbow or Sanitary Tee in the initial offering). If you have a misaligned fitting with solvent cement, the only option you have is to cut out the joint and start completely over.</p>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              <div class="modal-wrap">  
-                  <!-- Button trigger modal -->
-                  <a data-toggle="modal" href="#five">Reversible and Reusable</a>
-                  <!-- Modal -->
-                  <div class="modal fade" id="five" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <h4 class="modal-title" id="myModalLabel">Reversible and Reusable</h4>
-                        </div>
-                        <div class="modal-body">
-                          <p>If pipe is cut too short or too long, you can remove the pipe from the ConnecTite fitting, cut your pipe to the correct length and then reuse the same ConnecTite fitting up to three times. Again, with solvent cement your only option is to cut out the joint and start completely over.</p>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              <div class="modal-wrap">  
-                  <!-- Button trigger modal -->
-                  <a data-toggle="modal" href="#six">Compatible with Both PVC and ABS</a>
-                  <!-- Modal -->
-                  <div class="modal fade" id="six" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <h4 class="modal-title" id="myModalLabel">Compatible with Both PVC and ABS</h4>
-                        </div>
-                        <div class="modal-body">
-                          <p>ConnecTite fittings can be used as a transition fitting as it works with Schedule 40 OD plastic pipe.</p>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              <div class="modal-wrap">  
-                  <!-- Button trigger modal -->
-                  <a data-toggle="modal" href="#seven">Does Not Require Any Tools</a>
-                  <!-- Modal -->
-                  <div class="modal fade" id="seven" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <h4 class="modal-title" id="myModalLabel">Does Not Require Any Tools</h4>
-                        </div>
-                        <div class="modal-body">
-                          <p>Unlike push-fit pressure fittings, ConnecTite fittings do not require a tool for reversal.</p>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              <div class="modal-wrap">  
-                  <!-- Button trigger modal -->
-                  <a data-toggle="modal" href="#eight">Standard DWV diameter</a>
-                  <!-- Modal -->
-                  <div class="modal fade" id="eight" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <h4 class="modal-title" id="myModalLabel">Standard DWV diameter</h4>
-                        </div>
-                        <div class="modal-body">
-                          <p>ConnecTite fittings will fit in the exact same places as a solvent cement fitting of the same diameter. For example, a 3” ConnecTite fitting will fit within the confines of a 2” x 4” stud wall.</p>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              <div class="modal-wrap">  
-                  <!-- Button trigger modal -->
-                  <a data-toggle="modal" href="#nine">Made in USA</a>
-                  <!-- Modal -->
-                  <div class="modal fade" id="nine" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <h4 class="modal-title" id="myModalLabel">Made in USA</h4>
-                        </div>
-                        <div class="modal-body">
-                          <p>Like all Charlotte Pipe products, ConnecTite fittings are made in the USA. The only component that will not be manufactured in the US is the Gasket, which will be manufactured in Vietnam. However, I searched the Federal Trade Commission website, and we can still market the product as “Made in USA” as ConnecTite fittings are “all or virtually all” made in the US.</p>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
             </section>
           </div>
+          
         </div>
+
       </div>
     </section>
 

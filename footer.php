@@ -3,6 +3,17 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
+
+          <?php wp_nav_menu( array( 
+          	'menu' => 'footer',
+          	'theme_location' => 'footer', 
+          	'container_class' => 'footer' ) 
+          	); 
+          ?>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
 				<div class="small-copy-wrap">
 					<p>Copyright &copy; 2016 &#149; All rights reserved.</p>
 					<p>Charlotte Pipe and Foundry Co.<br>
