@@ -10,11 +10,14 @@ $c-gray : #656565;
 $accordion-gray : #d8d8d8;
 $contact-form-gray : #d9d9d9;
 $contact-form-copy : #b2b2b2;
+$footer-copy : #939598;
 
 // Media query breakpoints
 
+$brk-wider : '(max-width: 1200px)';
 $brk-wide : '(max-width: 1024px)';
 $brk-lessWide : '(max-width: 992px)';
 $brk-narrow : '(max-width: 768px)';
+$brk-767 : '(max-width: 767px)';
 $brk-small : '(max-width: 500px)';
 $brk-smaller : '(max-width: 320px)';

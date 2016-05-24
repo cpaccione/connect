@@ -15,6 +15,17 @@ Template Name: Connectite Home Page
 	
 	<?php putRevSlider("connectite_slider") ?>
 
+
+</section>
+
+<section class="mobile-hero">
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-12">
+            <img class="center-block" src="<?php bloginfo('template_directory');?>/images/push_fit_logo_updated.png" alt="Push-fit Connectite">
+          </div>
+      </div>
+  </div>
 </section>
 
   <section class="tag-line">
@@ -398,8 +409,8 @@ Template Name: Connectite Home Page
 
             <div class="col-md-12">
               <p>Watch Step-by-Step Installation Instructions</p>
-              <p>OR</p>
-              <p><a href="<?php bloginfo('template_directory'); ?>/pdf/connectite.PDF" target="_blank">DOWNLOAD PDF OF INSTRUCTIONS</a></p>
+              <p>or</p>
+              <p><a href="<?php bloginfo('template_directory'); ?>/pdf/connectite.PDF" target="_blank">Download PDF of Instructions</a></p>
             </div>
 
         </div>
