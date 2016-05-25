@@ -184,14 +184,6 @@ Template Name: Connectite Home Page
               </div>
           </div>
 
-<!--           <div class="row">
-            <div class="col-md-12">
-              <div class="applications-small-copy">
-                 
-              </div>
-            </div>
-          </div> -->
-
           <div class="row app-first-row">
 
               <div class="col-sm-4">
@@ -408,9 +400,7 @@ Template Name: Connectite Home Page
             </div>
 
             <div class="col-md-12">
-              <p>Watch Step-by-Step Installation Instructions</p>
-              <p>or</p>
-              <p><a href="<?php bloginfo('template_directory'); ?>/pdf/connectite.PDF" target="_blank">Download PDF of Instructions</a></p>
+              <p>Watch step-by-step installation instructions or <a href="<?php bloginfo('template_directory'); ?>/pdf/connectite.PDF" target="_blank">download PDF of instructions</a></p>
             </div>
 
         </div>
@@ -430,42 +420,46 @@ Template Name: Connectite Home Page
       <div class="container">
 
         <div class="row ap-row">
-          <div class="col-sm-6">
 
+          <div class="col-sm-6">
             <div class="img-overlay">
+            
               <img src="<?php bloginfo('template_directory');?>/images/product_1.png">
 
-              <div class="portfolio-overlay">
-                <div class="overlay-copy">
-                  <p><b>Coupling</b></p>
-                  <p>1 1/2 inch</p>
-                  <p>2 inch</p>
-                  <p>3 inch</p>
-                </div>
+              <div class="tapover portfolio-overlay">
+
+              <div class="overlay-copy">
+                <p><b>Coupling</b></p>
+                <p>1 1/2 inch</p>
+                <p>2 inch</p>
+                <p>3 inch</p>
               </div>
 
-            </div>
-
-          </div>
+              </div><!-- /.portfolio-overlay -->
+              </div> <!-- /.img-overlay -->
+          </div> <!-- /.col-sm-6 -->
 
           <div class="col-sm-6">
-                        <div class="img-overlay">
+              <div class="img-overlay">
               <img src="<?php bloginfo('template_directory');?>/images/product_2.jpg">
 
               <div class="portfolio-overlay">
+
                 <div class="overlay-copy">
                   <p><b>90&deg; Elbow</b></p>
                   <p>1 1/2 inch</p>
                   <p>2 inch</p>
                   <p>3 inch</p>
                 </div>
+
               </div>
-              
-            </div>
-          </div>
-        </div>
+            </div> <!-- /.img-overlay -->
+          </div> <!-- /.col-sm-6 -->
+
+        </div> <!-- /.ap-row -->
 
         <div class="row ap-row">
+
         <div class="col-sm-6">
             <div class="img-overlay">
               <img src="<?php bloginfo('template_directory');?>/images/product_3.png">
@@ -480,8 +474,9 @@ Template Name: Connectite Home Page
               </div>
               
             </div>
-            </div>
-                    <div class="col-sm-6">
+        </div>
+        
+        <div class="col-sm-6">
             <div class="img-overlay">
               <img src="<?php bloginfo('template_directory');?>/images/product_4.png">
 
@@ -495,11 +490,12 @@ Template Name: Connectite Home Page
               </div>
               
             </div>
-            </div>
         </div>
 
-      </div><!-- /.container -->
-    </section>
+      </div> <!-- /.ap-row -->
+    </div> <!-- /.container -->
+  </section> <!-- /.available-products -->
+
 
 
 <?php get_footer(); ?>

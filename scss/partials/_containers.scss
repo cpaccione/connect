@@ -261,11 +261,12 @@ a .modal-wrap p {
 // Home Page - Quick Installation
 
 .installation {
-	padding: 0 0 75px 0;
+	padding: 0 0 60px 0;
 	text-align: center;
 
 	a {
 		color: $black;
+		text-decoration: underline;
 
 		&:hover {
 			color: $red;
@@ -323,6 +324,10 @@ a .modal-wrap p {
 	-moz-transition: opacity 500ms;
 	-o-transition: opacity 500ms;
 	transition: opacity 500ms;
+
+	@media only screen and (max-device-width: 1024px) {
+		opacity: 1;
+	}
 }
 
 .overlay-copy {
