@@ -40,6 +40,17 @@ Template Name: FAQ
 		<div class="row">
 		<div id="accordion">
 
+			<?php if( have_rows('faq') ): ?>
+
+				<?php while( have_rows('faq') ): the_row(); ?>
+
+					<h3><?php the_sub_field('question'); ?></h3>
+					<div><?php the_sub_field('answer'); ?></div>
+
+				<?php endwhile; ?>
+
+			<?php endif; ?>
+
 		<h3>How long do I have to wait after installing ConnecTite fittings to use my plumbing system?</h3>
 		  <div>
 		    <p>Because there are no solvent cements or adhesives, ConnecTite fittings do not have any cure time. As a result, you can begin using your plumbing system immediately after installing ConnecTite fittings..</p>

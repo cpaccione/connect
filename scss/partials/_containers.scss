@@ -383,6 +383,11 @@ a .modal-wrap p {
 	margin: 0 auto;
 	padding-bottom: 45px;
 
+	@media #{$brk-small} {
+		width: 100%;
+		text-align: center;
+	}
+
 	h3 {
 		font-size: 1.5em;
 		margin: 0;
