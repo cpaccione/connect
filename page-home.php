@@ -178,8 +178,8 @@ Template Name: Connectite Home Page
           <div class="row">
               <div class="col-md-12">
                 <div class="section-title">
-                  <h3>For Drain, Waste and Vent Applications</h3>
-                  <small>Not for pressure</small> 
+                  <h3>For Drain, Waste and Vent Applications<sup>*</sup></h3>
+                  <small><sup>*</sup>Not for pressure</small> 
                 </div>
               </div>
           </div>
@@ -400,7 +400,7 @@ Template Name: Connectite Home Page
             </div>
 
             <div class="col-md-12">
-              <p>Watch step-by-step installation instructions or <a href="<?php bloginfo('template_directory'); ?>/pdf/connectite.PDF" target="_blank">download PDF of instructions</a></p>
+              <p>Watch step-by-step installation instructions or <a href="<?php bloginfo('template_directory'); ?>/pdf/145189_connectite.pdf" target="_blank">download PDF of instructions</a></p>
             </div>
 
         </div>

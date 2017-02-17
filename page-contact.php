@@ -45,7 +45,7 @@ Template Name: Contact
 					2109 Randolph Road<br>
 					Charlotte, NC 28207</p>
 					<p>(800) 438-6091<br>
-					<a href="mailto:info@connectite.com">info@connectite.com</a></p>
+					<a href="mailto:connectite@charlottepipe.com">connectite@charlottepipe.com</a></p>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-7 col-md-pull-5">
